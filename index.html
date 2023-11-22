@@ -1,102 +1,112 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Badila's Weather App</title>
-        <script src="main.js" defer></script>
-        <link rel="icon" href="https://fav.farm/🌤️" />
-    </head>
-    <body>
-        <div id="main-grid-container">
-            <header>
-                <div class="searchbar-container">
-                    <input type="text" id="searchbar" name="searchbar" placeholder="Search location">
-                </div>
-            </header>
-            <aside class="left">
-                <div class="feels-like-container aside-left-row">
-                    <span class="aside-left-title">Feels like</span>
-                    <span class="feels-like-degrees aside-left-value">23</span>
-                </div>
-                <div class="humidity-container aside-left-row">
-                    <span class="aside-left-title">Humidity</span>
-                    <span class="humidity-percentage aside-left-value">60%</span>
-                </div>
-                <div class="rain-chances-container aside-left-row">
-                    <span class="aside-left-title">Chance of Rain</span>
-                    <span class="rain-chances-percentage aside-left-value">15%</span>
-                </div>
-                <div class="wind-speed-container aside-left-row">
-                    <span class="aside-left-title">Wind Speed</span>
-                    <span class="wind-speed-number aside-left-value">40 kmh</span>
-                </div>
-                <div class="local-time-container aside-left-row">
-                    <span class="aside-left-title">Air Quality</span>
-                    <span class="wind-speed-number aside-left-value">Good</span>
-                </div>
-                <div class="local-time-container aside-left-row">
-                    <span class="aside-left-title">Local time</span>
-                    <span class="wind-speed-number aside-left-value">15:48</span>
-                </div>
-            </aside>
-            <main>
-                <div class="main-info">
-                    <div class="row-one">
-                        <span class="location-name">Madrid</span>
-                    </div>
-                    <div class="row-two">
-                        <span class="location-degrees">23°</span>
-                        <span class="degrees-unit">C</span>
-                    </div>
-                    <div class="row-three">
-                        <span class="main-weather-icon">X</span>
-                        <span class="main-weather-text">Sunny</span>
-                    </div>
-                    <div class="row-four">
-                        <span class="todays-max">Max: 21°</span>
-                        <span class="todays-min">Min: 13°</span>
-                    </div>
-                </div>
-            </main>
-            <aside class="right">
-                <div class="tomorrow-container aside-right-row">
-                    <div>
-                        <span class="tomorrow-title">Thursday</span>
-                        <span class="tomorrow-icon aside-right-value">X</span>
-                    </div>
-                    <div class="tomorrow-degrees">
-                        <div class="tomorrow-max aside-right-value">20</div>
-                        <div class="tomorrow-min aside-right-value">10</div>
-                    </div>
-                </div>
-                <div class="day-two-container aside-right-row">
-                    <div>
-                        <span class="day-two-title">Friday</span>
-                        <span class="day-two-icon aside-right-value">X</span>
-                    </div>
-                    <div class="day-two-degrees">
-                        <div class="day-two-max aside-right-value">23</div>
-                        <div class="day-two-min aside-right-value">14</div>
-                    </div>
-                </div>
-                <div class="day-three-container aside-right-row">
-                    <div>
-                        <span class="day-three-title">Saturday</span>
-                        <span class="day-three-icon aside-right-value">X</span>
-                    </div>
-                    <div class="day-three-degrees">
-                        <div class="day-three-max aside-right-value">28</div>
-                        <div class="day-three-min aside-right-value">18</div>
-                    </div>
-                </div>
-                <div class="toggle-degrees-unit celsius">switch to °F</div>
-            </aside>
-            <footer>
-                <div class="footer-elements-container">
-                    <a href="https://www.theodinproject.com"><img src="../src/odin-icon.png" alt="The Odin Project Logo" class="odin-icon"></a>
-                    <span class="footer-text">The Odin Project made me do it.</span>
-                </div>
-            </footer>
+  <head>
+    <meta charset="utf-8" />
+    <title>Badila's Weather App</title>
+    <script src="main.js" defer></script>
+    <link rel="icon" href="https://fav.farm/🌤️" />
+  </head>
+  <body>
+    <div id="main-grid-container">
+      <header>
+        <div class="searchbar-container">
+          <input
+            type="text"
+            id="searchbar"
+            name="searchbar"
+            placeholder="Search location"
+          />
         </div>
-    </body>
+      </header>
+      <aside class="left">
+        <div class="feels-like-container aside-left-row">
+          <span class="aside-left-title">Feels like</span>
+          <span class="feels-like-degrees aside-left-value">23</span>
+        </div>
+        <div class="humidity-container aside-left-row">
+          <span class="aside-left-title">Humidity</span>
+          <span class="humidity-percentage aside-left-value">60%</span>
+        </div>
+        <div class="rain-chances-container aside-left-row">
+          <span class="aside-left-title">Chance of Rain</span>
+          <span class="rain-chances-percentage aside-left-value">15%</span>
+        </div>
+        <div class="wind-speed-container aside-left-row">
+          <span class="aside-left-title">Wind Speed</span>
+          <span class="wind-speed-number aside-left-value">40 kmh</span>
+        </div>
+        <div class="local-time-container aside-left-row">
+          <span class="aside-left-title">Air Quality</span>
+          <span class="wind-speed-number aside-left-value">Good</span>
+        </div>
+        <div class="local-time-container aside-left-row">
+          <span class="aside-left-title">Local time</span>
+          <span class="wind-speed-number aside-left-value">15:48</span>
+        </div>
+      </aside>
+      <main>
+        <div class="main-info">
+          <div class="row-one">
+            <span class="location-name">Madrid</span>
+          </div>
+          <div class="row-two">
+            <span class="location-degrees">23°</span>
+            <span class="degrees-unit">C</span>
+          </div>
+          <div class="row-three">
+            <span class="main-weather-icon">X</span>
+            <span class="main-weather-text">Sunny</span>
+          </div>
+          <div class="row-four">
+            <span class="todays-max">Max: 21°</span>
+            <span class="todays-min">Min: 13°</span>
+          </div>
+        </div>
+      </main>
+      <aside class="right">
+        <div class="tomorrow-container aside-right-row">
+          <div>
+            <span class="tomorrow-title">Thursday</span>
+            <span class="tomorrow-icon aside-right-value">X</span>
+          </div>
+          <div class="tomorrow-degrees">
+            <div class="tomorrow-max aside-right-value">20</div>
+            <div class="tomorrow-min aside-right-value">10</div>
+          </div>
+        </div>
+        <div class="day-two-container aside-right-row">
+          <div>
+            <span class="day-two-title">Friday</span>
+            <span class="day-two-icon aside-right-value">X</span>
+          </div>
+          <div class="day-two-degrees">
+            <div class="day-two-max aside-right-value">23</div>
+            <div class="day-two-min aside-right-value">14</div>
+          </div>
+        </div>
+        <div class="day-three-container aside-right-row">
+          <div>
+            <span class="day-three-title">Saturday</span>
+            <span class="day-three-icon aside-right-value">X</span>
+          </div>
+          <div class="day-three-degrees">
+            <div class="day-three-max aside-right-value">28</div>
+            <div class="day-three-min aside-right-value">18</div>
+          </div>
+        </div>
+        <div class="toggle-degrees-unit celsius">switch to °F</div>
+      </aside>
+      <footer>
+        <div class="footer-elements-container">
+          <a href="https://www.theodinproject.com"
+            ><img
+              src="../src/odin-icon.png"
+              alt="The Odin Project Logo"
+              class="odin-icon"
+          /></a>
+          <span class="footer-text">The Odin Project made me do it.</span>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
