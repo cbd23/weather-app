@@ -171,8 +171,8 @@ footer {
 
 .footer-text {
     font-size: 1.2rem;
-    flex: 1;
     justify-content: flex-start;    
     margin: 10px;
     color: black;
+    flex: 1;
 }
