@@ -46,7 +46,7 @@ header {
   padding: 0px 10px;
 }
 
-.toggle-degrees-unit {
+.switch-btn {
   width: 180px;
   height: 50px;
   border: 2px solid white;
@@ -59,11 +59,11 @@ header {
   cursor: pointer;
 }
 
-.toggle-degrees-unit:hover {
+.switch-btn:hover {
   background-color: rgb(29, 113, 242);
 }
 
-.toggle-degrees-unit:active {
+.switch-btn:active {
   background-color: rgba(28, 156, 246, 1);
 }
 
@@ -115,12 +115,19 @@ main {
   font-size: 2.5rem;
 }
 
+.row-one > .region {
+  font-size: 1.5rem;
+}
+
 .row-two {
   font-size: 5rem;
 }
 
 .row-three {
   font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .row-four > span {
@@ -128,26 +135,47 @@ main {
   margin: 0 8px;
 }
 
+.row-five {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-five > div {
+  margin: 16px;
+}
+
 aside.right {
   grid-area: 2 / 3 / span 1 / span 1;
   font-size: 1.5rem;
 }
 
+.tomorrow-title-container,
+.day-two-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.local-time,
+.local-date {
+  font-size: 1.5rem;
+}
+
 .tomorrow-degrees,
-.day-two-degrees,
-.day-three-degrees {
+.day-two-degrees {
   text-align: center;
 }
 
 .tomorrow-max,
-.day-two-max,
-.day-three-max {
+.day-two-max {
   font-size: 3rem;
 }
 
 .tomorrow-min,
-.day-two-min,
-.day-three-min {
+.day-two-min {
   font-size: 2rem;
 }
 
