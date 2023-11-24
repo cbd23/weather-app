@@ -16,7 +16,7 @@ domElements.switchBtn.addEventListener('pointerdown', () => {
 })
 
 async function getForecast () {
-  const FORECAST_URL = `http://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${userInput}&days=4`
+  const FORECAST_URL = `https://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${userInput}&days=4`
 
   try {
     const response = await fetch(FORECAST_URL)
