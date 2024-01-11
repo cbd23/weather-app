@@ -1,3 +1,5 @@
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 🕹 Live Demo: https://cbd23.github.io/weather-app/
 
 This project is part of my journey with The Odin Project.
